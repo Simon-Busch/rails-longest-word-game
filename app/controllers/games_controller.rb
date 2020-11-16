@@ -4,7 +4,7 @@ require 'json'
 class GamesController < ApplicationController
 
   def new
-    @new = Array.new(15) { ('a'..'z').to_a.sample }
+    @new = Array.new(10) { ('a'..'z').to_a.sample }
   end
 
   def score
