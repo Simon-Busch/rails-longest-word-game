@@ -1,0 +1,14 @@
+.btn-ghost {
+  background-color: transparent;
+  border: 1px solid grey;
+  padding: 10px 14px;
+  border-radius: 25px;
+  margin-left: 20px;
+  color:white;
+  transition: all .5s;
+
+    &:hover{
+      transform: scale(1.2);
+      color:yellow;
+    }
+}

@@ -1,0 +1,31 @@
+.letter_list {
+  list-style: none;
+  display: flex;
+  padding: 2rem;
+
+  li {
+    padding: 1.5rem;
+    border:1px solid white;
+    border-radius:10px;
+    margin: .5rem;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 1rem;
+    background-color: black;
+    font-size: 16px;
+    color:white;
+    transition: all .5s;
+
+    &:hover{
+      transform: scale(1.2);
+      color:yellow;
+    }
+  }
+}
+
+.container {
+  margin-top: 10rem;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+}
